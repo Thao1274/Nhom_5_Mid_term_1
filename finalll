@@ -2,12 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 %run Xu_ly_du_lieu.py
-
+print(df_final.columns)
 
 df_final.head()
 df_final["saledate"] = pd.to_datetime(df_final['saledate'], errors='coerce')
-df_final.groupby("orderid").size().value_counts()
 
+df_final.groupby("orderid").size().value_counts()
 #Giá vé trung bình giữa ngày lễ và ngày thường
 # Phân loại ngày lễ và ngày thường
 df_final["Loại ngày"] = df_final["saledate"].apply(
@@ -37,14 +37,6 @@ axes[1].set_ylabel("Giá vé (VNĐ)")
 
 plt.tight_layout()
 plt.show()
-
-
-
-
-
-
-
-
 may_data = df_final[df_final["saledate"].dt.month == 5]
 
 # Số lượng vé bán theo từng ngày
@@ -63,8 +55,7 @@ plt.xticks(daily_ticket_count.index.day)  # Chỉ hiện ngày có vé bán
 plt.tight_layout()
 plt.show()
 
-
-#Lấy giờ chiếu
+#Giờ chiếu
 df_final["Giờ chiếu"] = df_final["time"].dt.hour
 
 # Tạo figure
@@ -85,19 +76,26 @@ plt.show()
 
 
 # Số liệu suất chiếu
-heatmap_genre_time = df_final.groupby(["Giờ chiếu", "Thể loại chính"]).size().unstack(fill_value=0)
+# Explode
+df_explode = df_final.copy()
+df_explode["GenreList"] = df_explode["listed_in"].str.split(",")
+df_explode = df_explode.explode("GenreList")
+df_explode["GenreList"] = df_explode["GenreList"].str.strip()
 
+# Tính số lượng suất chiếu theo giờ chiếu và thể loại phim
+heatmap_genre_time = df_explode.groupby(["Giờ chiếu", "GenreList"]).size().unstack(fill_value=0)
+
+# 
 print(heatmap_genre_time)
 
 # Vẽ heatmap
-plt.figure(figsize=(12, 6))
-sns.heatmap(heatmap_genre_time, cmap="YlGnBu", annot=True, fmt="d", linewidths=0.5)
-plt.title("Số vé bán theo thể loại phim và giờ chiếu")
+plt.figure(figsize=(14, 6))
+sns.heatmap(heatmap_genre_time, annot=True, fmt="d", cmap="YlOrRd")
+plt.title("Số suất chiếu theo Giờ chiếu và Thể loại phim")
 plt.xlabel("Thể loại phim")
-plt.ylabel("Giờ chiếu (24h)")
+plt.ylabel("Giờ chiếu")
 plt.tight_layout()
 plt.show()
-
 
 
 # Tính số lượng vé trong mỗi hóa đơn
@@ -115,30 +113,19 @@ movie_revenue = df_final.groupby("title")["Doanh thu"].sum().reset_index()
 # 5 phim có doanh thu cao nhất
 movie_revenue = movie_revenue.sort_values(by="Doanh thu", ascending=False).head(5)
 
-# Vẽ barplot 
+# Vẽ barplot
 plt.figure(figsize=(8, 4))
-sns.barplot(data=movie_revenue, x="Doanh thu", y="title", palette=["#780000", "#C1121F", "#FDF0_
-
-# Doanh thu
-df_final["doanh_thu"] = df_final["Số vé trong hóa đơn"] * df_final["Giá vé"]
-
-
-# Tính doanh thu theo thể loại phim
-genre_exploded_revenue = df_explode.groupby("GenreList")["doanh_thu"].sum().reset_index()
-genre_exploded_revenue = genre_exploded_revenue.sort_values(by="doanh_thu", ascending=False)
-
-# Vẽ barplot với palette màu đã cung cấp
-plt.figure(figsize=(10, 6))
-sns.barplot(data=genre_exploded_revenue.head(5), x="doanh_thu", y="GenreList", palette=["#780000", "#C1121F", "#FDF0D5", "#003049", "#669BBC"])
-plt.title("Doanh thu theo từng thể loại phim (Top 5)")
+sns.barplot(
+    data=movie_revenue, 
+    x="Doanh thu", 
+    y="title", 
+    palette=["#780000", "#C1121F", "#FDF0D5", "#003049", "#669BBC"]  # palette chuẩn màu bạn list
+)
+plt.title("Doanh thu theo phim (Top 5)")
 plt.xlabel("Doanh thu (VNĐ)")
-plt.ylabel("Thể loại phim")
+plt.ylabel("Tên phim")
 plt.tight_layout()
 plt.show()
-
-
-
-
 
 
 # Phân bố độ tuổi
@@ -160,7 +147,6 @@ axes[1].set_xlabel("Tuổi")
 
 plt.tight_layout()
 plt.show()
-
 
 # Phân bố ghế ngồi
 df_final["Hàng ghế"] = df_final["slot"].str[0]
@@ -210,8 +196,6 @@ plt.show()
 
 
 
-
-
 # Tỷ lệ khách mua popcorn
 popcorn_counts = df_final["popcorn"].value_counts()
 
@@ -222,13 +206,15 @@ plt.title("Tỷ lệ khách mua bắp rang")
 plt.tight_layout()
 plt.show()
 
-
-# Số lượng vé bán và doanh thu theo thể loại phim
 # Tách thể loại phim
 df_genre = df_final.copy()
 df_genre["GenreList"] = df_genre["listed_in"].str.split(",")
 df_genre = df_genre.explode("GenreList")
 df_genre["GenreList"] = df_genre["GenreList"].str.strip()
+
+#Doanh thu
+if 'doanh_thu' not in df_genre.columns:
+    df_genre["doanh_thu"] = df_genre["Số vé trong hóa đơn"] * df_genre["Giá vé"]
 
 # Doanh thu theo thể loại phim
 genre_revenue = df_genre.groupby("GenreList")["doanh_thu"].sum().reset_index()
@@ -237,6 +223,7 @@ genre_revenue = df_genre.groupby("GenreList")["doanh_thu"].sum().reset_index()
 genre_counts = df_genre["GenreList"].value_counts().reset_index()
 genre_counts.columns = ["GenreList", "Số vé"]
 
+# Vẽ biểu đồ
 fig, axes = plt.subplots(1, 2, figsize=(16, 6))
 
 # Scatterplot doanh thu theo thể loại
@@ -266,4 +253,17 @@ axes[1].set_ylabel("")
 
 plt.tight_layout()
 plt.show()
+
+#Doanh thu theo ngày
+daily_revenue = df_final.groupby("saledate")["Doanh thu"].sum().reset_index()
+
+plt.figure(figsize=(12,6))
+sns.lineplot(data=daily_revenue, x="saledate", y="Doanh thu", color="#003049")
+plt.title("Doanh thu theo ngày")
+plt.xlabel("Ngày")
+plt.ylabel("Doanh thu (VNĐ)")
+plt.xticks(rotation=45)
+plt.show()
+
+
 
