@@ -1,0 +1,269 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+%run Xu_ly_du_lieu.py
+
+
+df_final.head()
+df_final["saledate"] = pd.to_datetime(df_final['saledate'], errors='coerce')
+df_final.groupby("orderid").size().value_counts()
+
+#Giá vé trung bình giữa ngày lễ và ngày thường
+# Phân loại ngày lễ và ngày thường
+df_final["Loại ngày"] = df_final["saledate"].apply(
+    lambda x: "Lễ 1/5" if x == pd.Timestamp("2019-05-01") else "Ngày thường"
+)
+
+# Tính giá vé trung bình 
+avg_price = df_final.groupby("Loại ngày")["ticket price"].mean().reset_index()
+
+
+palette_custom = ["#780000", "#C1121F"]
+
+# Vẽ biểu đồ
+fig, axes = plt.subplots(1, 2, figsize=(14, 6))
+
+# Barplot giá vé trung bình
+sns.barplot(data=avg_price, x="Loại ngày", y="ticket price", palette=palette_custom, ax=axes[0])
+axes[0].set_title("Giá vé trung bình theo loại ngày")
+axes[0].set_xlabel("")
+axes[0].set_ylabel("Giá vé (VNĐ)")
+
+# Boxplot phân bố giá vé
+sns.boxplot(data=df_final, x="Loại ngày", y="ticket price", palette=palette_custom, ax=axes[1])
+axes[1].set_title("Phân bố giá vé (Boxplot)")
+axes[1].set_xlabel("")
+axes[1].set_ylabel("Giá vé (VNĐ)")
+
+plt.tight_layout()
+plt.show()
+
+
+
+
+
+
+
+
+may_data = df_final[df_final["saledate"].dt.month == 5]
+
+# Số lượng vé bán theo từng ngày
+daily_ticket_count = may_data["saledate"].value_counts().sort_index()
+
+# Màu custom palette — lấy màu đầu tiên trong palette đã quy định
+custom_color = "#780000"
+
+# Vẽ biểu đồ
+plt.figure(figsize=(12, 5))
+sns.barplot(x=daily_ticket_count.index.day, y=daily_ticket_count.values, color=custom_color)
+plt.title("Số lượng vé bán mỗi ngày trong tháng 5")
+plt.xlabel("Ngày trong tháng 5")
+plt.ylabel("Số lượng vé bán ra")
+plt.xticks(daily_ticket_count.index.day)  # Chỉ hiện ngày có vé bán
+plt.tight_layout()
+plt.show()
+
+
+#Lấy giờ chiếu
+df_final["Giờ chiếu"] = df_final["time"].dt.hour
+
+# Tạo figure
+plt.figure(figsize=(10, 6))
+
+# Biểu đồ barplot phân bố thời gian chiếu trong ngày (màu #780000)
+sns.barplot(x=df_final["Giờ chiếu"].dropna().value_counts().sort_index().index,
+            y=df_final["Giờ chiếu"].dropna().value_counts().sort_index().values,
+            color="#780000")
+
+plt.title("Số lượng suất chiếu theo giờ trong ngày")
+plt.xlabel("Giờ chiếu (24h)")
+plt.ylabel("Số lượng suất chiếu")
+plt.tight_layout()
+plt.show()
+
+
+
+
+# Số liệu suất chiếu
+heatmap_genre_time = df_final.groupby(["Giờ chiếu", "Thể loại chính"]).size().unstack(fill_value=0)
+
+print(heatmap_genre_time)
+
+# Vẽ heatmap
+plt.figure(figsize=(12, 6))
+sns.heatmap(heatmap_genre_time, cmap="YlGnBu", annot=True, fmt="d", linewidths=0.5)
+plt.title("Số vé bán theo thể loại phim và giờ chiếu")
+plt.xlabel("Thể loại phim")
+plt.ylabel("Giờ chiếu (24h)")
+plt.tight_layout()
+plt.show()
+
+
+
+# Tính số lượng vé trong mỗi hóa đơn
+df_final["Số vé trong hóa đơn"] = df_final.groupby("orderid")["orderid"].transform("count")
+
+# Giá vé cho mỗi vé bán
+df_final["Giá vé"] = df_final["total"] / df_final["Số vé trong hóa đơn"]
+
+# Doanh thu cho mỗi phim
+df_final["Doanh thu"] = df_final["Giá vé"] * df_final["Số vé trong hóa đơn"]
+
+# Tổng doanh thu theo từng phim
+movie_revenue = df_final.groupby("title")["Doanh thu"].sum().reset_index()
+
+# 5 phim có doanh thu cao nhất
+movie_revenue = movie_revenue.sort_values(by="Doanh thu", ascending=False).head(5)
+
+# Vẽ barplot 
+plt.figure(figsize=(8, 4))
+sns.barplot(data=movie_revenue, x="Doanh thu", y="title", palette=["#780000", "#C1121F", "#FDF0_
+
+# Doanh thu
+df_final["doanh_thu"] = df_final["Số vé trong hóa đơn"] * df_final["Giá vé"]
+
+
+# Tính doanh thu theo thể loại phim
+genre_exploded_revenue = df_explode.groupby("GenreList")["doanh_thu"].sum().reset_index()
+genre_exploded_revenue = genre_exploded_revenue.sort_values(by="doanh_thu", ascending=False)
+
+# Vẽ barplot với palette màu đã cung cấp
+plt.figure(figsize=(10, 6))
+sns.barplot(data=genre_exploded_revenue.head(5), x="doanh_thu", y="GenreList", palette=["#780000", "#C1121F", "#FDF0D5", "#003049", "#669BBC"])
+plt.title("Doanh thu theo từng thể loại phim (Top 5)")
+plt.xlabel("Doanh thu (VNĐ)")
+plt.ylabel("Thể loại phim")
+plt.tight_layout()
+plt.show()
+
+
+
+
+
+
+# Phân bố độ tuổi
+df_final["Tuổi"] = pd.to_numeric(df_final["Tuổi"], errors="coerce")
+
+# Vẽ histplot và boxplot trong cùng một cửa sổ sử dụng subplot
+fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+
+# Vẽ histplot
+sns.histplot(df_final["Tuổi"].dropna(), bins=15, kde=True, color="#780000", ax=axes[0])
+axes[0].set_title("Phân bố độ tuổi khách hàng xem phim (Histplot)")
+axes[0].set_xlabel("Tuổi")
+axes[0].set_ylabel("Số lượng vé")
+
+# Vẽ boxplot
+sns.violinplot(x=df_final["Tuổi"], color="#C1121F", ax=axes[1])
+axes[1].set_title("Phân bố độ tuổi khách hàng xem phim (Violinplot)")
+axes[1].set_xlabel("Tuổi")
+
+plt.tight_layout()
+plt.show()
+
+
+# Phân bố ghế ngồi
+df_final["Hàng ghế"] = df_final["slot"].str[0]
+df_final["Số ghế"] = df_final["slot"].str[1:]
+
+# Đếm số lượt theo hàng ghế
+hang_counts = df_final["Hàng ghế"].value_counts().sort_index()
+
+# Tạo figure với 2 subplot
+fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+
+# Vẽ barplot phân bố số lượt ngồi theo hàng ghế
+sns.barplot(x=hang_counts.index, y=hang_counts.values, palette=["#780000", "#C1121F", "#FDF0D5", "#003049", "#669BBC"], ax=axes[0])
+axes[0].set_title("Phân bố số lượt ngồi theo hàng ghế")
+axes[0].set_xlabel("Hàng ghế")
+axes[0].set_ylabel("Số lượt ngồi")
+
+# Sự phân bố ghế ngồi
+df_final["Hàng ghế"] = df_final["slot"].str.extract(r"([A-Z])")
+df_final["Cột ghế"] = df_final["slot"].str.extract(r"(\d+)")
+
+# Đếm số lượt ngồi theo vị trí
+heatmap_data = df_final.groupby(["Hàng ghế", "Cột ghế"]).size().unstack(fill_value=0)
+
+# Tạo bảng ghi nhãn là tên ghế (A01, B05, ...)
+labels = heatmap_data.copy()
+for row in labels.index:
+    for col in labels.columns:
+        labels.loc[row, col] = f"{row}{col}"
+
+# Vẽ heatmap phân bố ghế ngồi
+sns.heatmap(
+    heatmap_data.sort_index(ascending=False),
+    cmap="Reds",  # Đổi màu palette của heatmap sang sắc đỏ
+    linewidths=0.5,
+    annot=labels.sort_index(ascending=False),
+    fmt="s", 
+    ax=axes[1]
+)
+axes[1].set_title("Heatmap phân bố ghế ngồi")
+axes[1].set_xlabel("Cột ghế")
+axes[1].set_ylabel("Hàng ghế")
+
+# Căn chỉnh layout
+plt.tight_layout()
+plt.show()
+
+
+
+
+
+# Tỷ lệ khách mua popcorn
+popcorn_counts = df_final["popcorn"].value_counts()
+
+colors = ["#C1121F", "#669BBC"]
+plt.figure(figsize=(6, 6))
+plt.pie(popcorn_counts, labels=popcorn_counts.index, autopct="%.1f%%", colors=colors)
+plt.title("Tỷ lệ khách mua bắp rang")
+plt.tight_layout()
+plt.show()
+
+
+# Số lượng vé bán và doanh thu theo thể loại phim
+# Tách thể loại phim
+df_genre = df_final.copy()
+df_genre["GenreList"] = df_genre["listed_in"].str.split(",")
+df_genre = df_genre.explode("GenreList")
+df_genre["GenreList"] = df_genre["GenreList"].str.strip()
+
+# Doanh thu theo thể loại phim
+genre_revenue = df_genre.groupby("GenreList")["doanh_thu"].sum().reset_index()
+
+# Số lượng vé theo thể loại phim
+genre_counts = df_genre["GenreList"].value_counts().reset_index()
+genre_counts.columns = ["GenreList", "Số vé"]
+
+fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+
+# Scatterplot doanh thu theo thể loại
+sns.scatterplot(
+    data=genre_revenue, 
+    x="doanh_thu", 
+    y="GenreList", 
+    color="#C1121F", 
+    s=100, 
+    ax=axes[0]
+)
+axes[0].set_title("Tương quan Doanh thu và Thể loại phim")
+axes[0].set_xlabel("Doanh thu (VNĐ)")
+axes[0].set_ylabel("Thể loại")
+
+# Barplot số lượng vé theo thể loại
+sns.barplot(
+    data=genre_counts, 
+    y="GenreList", 
+    x="Số vé", 
+    palette=["#780000", "#C1121F", "#FDF0D5", "#003049", "#669BBC"], 
+    ax=axes[1]
+)
+axes[1].set_title("Số lượng vé theo từng thể loại phim")
+axes[1].set_xlabel("Số vé")
+axes[1].set_ylabel("")
+
+plt.tight_layout()
+plt.show()
+
