@@ -1,0 +1,1067 @@
+[
+    {
+        "sha": "b760630fef10f009ab496e69aa00e40e6b3b097a",
+        "node_id": "C_kwDOOTQWztoAKGI3NjA2MzBmZWYxMGYwMDlhYjQ5NmU2OWFhMDBlNDBlNmIzYjA5N2E",
+        "commit": {
+            "author": {
+                "name": "Dophuongdung638",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-13T13:55:51Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-04-13T13:55:51Z"
+            },
+            "message": "Midtermfinal ver",
+            "tree": {
+                "sha": "d09d1f3cbee62fb846056923dc1be989beb4dbf0",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/d09d1f3cbee62fb846056923dc1be989beb4dbf0"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/b760630fef10f009ab496e69aa00e40e6b3b097a",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn+8JoCRC1aQ7uu5UhlAAAb+QQAI6mYcODl8FXUxrtXRKXensC\nKMDrSjzqU3FQCjwIBltobfWKqgfapGqhOC/b6LUpKi6VB1+xXcK7u40Sv3x1rGtZ\n0yIirlg3v2eTtJet4OlZvRYhdfBc7eBgH8i45DqAIPRPgunWyZ7GxV96zUQF5+uF\nnSxmNGYd0uyZ51oiI3mOXUYqy1VnACX4HHbQi0LEL9MgplMx65h9P+u2/KL+FYWo\ncZlZQU2dWu5GTAYpjE8iP5kF6rj9HM+hsBGZ0vGSgJh8oFlLsEyDq9bwd9ZQ+PH/\nQXB/+T1npj6PdigYxd4lI4sZSoB+V0odiLDIiQ3gYFhNyXoG8xsFQHuHuvJuzC3r\n+p3M4fZaR0aGQyxWl3Vh2n25SCNev83XeUA++k5IBIF+7cjSd6bq3bg0YciyvLS7\nldLkMZPr+nbORVyeAafls9m8r3YMxaBjxmIBiiBIzquziy8At0CCov7LJLU5htdJ\nBcWo5bIFPS2fUKZMViHzfplKMEnaj/FozoxXQlMBfrbxw0uCFsU9V3B2ZLXqQfT+\nA1TEx8wrLDhJN9NitIkly4C3nCo4ZIOSLuPpbdamJ423fDj0V2w78nUkkucVioyD\noLeMv9wg/ApFjfEE7PsOryf+UaaV9zlXZ+gbOqd2EGkGH9oEROP4rWer/QonnjFr\n/bMOsPviiSouid4bNxlq\n=Mz66\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree d09d1f3cbee62fb846056923dc1be989beb4dbf0\nparent 6f4d0d91e6d381936f0b909d87a8269cb7b4aff2\nauthor Dophuongdung638 <11227119@st.neu.edu.vn> 1744552551 +0700\ncommitter GitHub <noreply@github.com> 1744552551 +0700\n\nMidtermfinal ver",
+                "verified_at": "2025-04-13T13:56:17Z"
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/b760630fef10f009ab496e69aa00e40e6b3b097a",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/b760630fef10f009ab496e69aa00e40e6b3b097a",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/b760630fef10f009ab496e69aa00e40e6b3b097a/comments",
+        "author": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6f4d0d91e6d381936f0b909d87a8269cb7b4aff2",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/6f4d0d91e6d381936f0b909d87a8269cb7b4aff2",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/6f4d0d91e6d381936f0b909d87a8269cb7b4aff2"
+            }
+        ]
+    },
+    {
+        "sha": "6f4d0d91e6d381936f0b909d87a8269cb7b4aff2",
+        "node_id": "C_kwDOOTQWztoAKDZmNGQwZDkxZTZkMzgxOTM2ZjBiOTA5ZDg3YTgyNjljYjdiNGFmZjI",
+        "commit": {
+            "author": {
+                "name": "Dophuongdung638",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-13T00:28:41Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-04-13T00:28:41Z"
+            },
+            "message": "Merge pull request #1 from Thao1274/Phuongdung\n\nPhuongdung",
+            "tree": {
+                "sha": "5d5d9ce452f5c0b837875fbe7cdd096d68fb76cb",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/5d5d9ce452f5c0b837875fbe7cdd096d68fb76cb"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/6f4d0d91e6d381936f0b909d87a8269cb7b4aff2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn+wU5CRC1aQ7uu5UhlAAAv3EQAD3HP47pfohXM/tsbyl6jCCV\nI67dy/FrdVkEcxUfHy/M3VKyc663ht7K6Y/245BK1ma9ZmWfRNPycpVuIrlMcRNs\nEsyLc2IB+sdDKOZIejLlkS4OdvRv0NBGDCsI7Yhk5rnI7nf5+E/RrQT4EBQyrgWq\naI7JXb3jFixJlWtZH6v91O9VljFAjRKd+NgiuSuwCS0Kvsr9FoomZg69+kVglIkg\nA8sSQVmX0jKPfMbEpoLai/P+BwcMLOnPQis41W9Q2duFWhXPFnKqglsPqczs0gHw\n0YPzh+aW5SJWWf3/cWPmwr+0VKvXg9dQMtjE56rHPPzYU2+LEmYRjN7Vqvrp6Co1\nCfQPnXx+HpIt3m0fXHO9EzYgdO5GR8KejW4MHL0Cm9106aXhj4rv4jezes9NYm8F\ng2rVacs5K65+eSNwpCArLLRZi5knDhiAFE3gRVYdQ34b6KhBavoEXSlacXRM0cBd\nk90TrvsoTqFpiRxZ9LXC0WKqrVavjJ2llOIWxTwFSJdFT1tfnBQJcbddJ+3smxIt\nP016H1kHlLPK1ozOVktgcFEEm8bfokWIF1IAdf+gahUqx+/jOqINjpHRzdFy6jrZ\nlRJB/3GqWCYqrWKnEjkIymLW0x04ENl9mHGIU0OybjAJEOAflC8ES4hjZ8NBgzrv\n6p0F7dstrXYNFcFNrT99\n=6aI2\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5d5d9ce452f5c0b837875fbe7cdd096d68fb76cb\nparent dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36\nparent dc30b6a4e828115afc631826653080ea081e9b84\nauthor Dophuongdung638 <11227119@st.neu.edu.vn> 1744504121 +0700\ncommitter GitHub <noreply@github.com> 1744504121 +0700\n\nMerge pull request #1 from Thao1274/Phuongdung\n\nPhuongdung",
+                "verified_at": "2025-04-13T00:29:07Z"
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/6f4d0d91e6d381936f0b909d87a8269cb7b4aff2",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/6f4d0d91e6d381936f0b909d87a8269cb7b4aff2",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/6f4d0d91e6d381936f0b909d87a8269cb7b4aff2/comments",
+        "author": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36"
+            },
+            {
+                "sha": "dc30b6a4e828115afc631826653080ea081e9b84",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/dc30b6a4e828115afc631826653080ea081e9b84",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/dc30b6a4e828115afc631826653080ea081e9b84"
+            }
+        ]
+    },
+    {
+        "sha": "dc30b6a4e828115afc631826653080ea081e9b84",
+        "node_id": "C_kwDOOTQWztoAKGRjMzBiNmE0ZTgyODExNWFmYzYzMTgyNjY1MzA4MGVhMDgxZTliODQ",
+        "commit": {
+            "author": {
+                "name": "Do Phuong Dung",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-11T04:43:01Z"
+            },
+            "committer": {
+                "name": "Do Phuong Dung",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-11T04:43:01Z"
+            },
+            "message": "Thay doi df",
+            "tree": {
+                "sha": "5d5d9ce452f5c0b837875fbe7cdd096d68fb76cb",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/5d5d9ce452f5c0b837875fbe7cdd096d68fb76cb"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/dc30b6a4e828115afc631826653080ea081e9b84",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/dc30b6a4e828115afc631826653080ea081e9b84",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/dc30b6a4e828115afc631826653080ea081e9b84",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/dc30b6a4e828115afc631826653080ea081e9b84/comments",
+        "author": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5d323c507de61236ee0390285775476e5764cce4",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/5d323c507de61236ee0390285775476e5764cce4",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/5d323c507de61236ee0390285775476e5764cce4"
+            }
+        ]
+    },
+    {
+        "sha": "5d323c507de61236ee0390285775476e5764cce4",
+        "node_id": "C_kwDOOTQWztoAKDVkMzIzYzUwN2RlNjEyMzZlZTAzOTAyODU3NzU0NzZlNTc2NGNjZTQ",
+        "commit": {
+            "author": {
+                "name": "Do Phuong Dung",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-11T03:35:57Z"
+            },
+            "committer": {
+                "name": "Do Phuong Dung",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-11T03:35:57Z"
+            },
+            "message": "Lấy file xử lý dữ liệu từ nhánh mau",
+            "tree": {
+                "sha": "778b4162491441f3e9a7dccadfd6b586d850fa3a",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/778b4162491441f3e9a7dccadfd6b586d850fa3a"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/5d323c507de61236ee0390285775476e5764cce4",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/5d323c507de61236ee0390285775476e5764cce4",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/5d323c507de61236ee0390285775476e5764cce4",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/5d323c507de61236ee0390285775476e5764cce4/comments",
+        "author": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ba78bea45d7874d60f66ef2d0de77b7622035f69",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/ba78bea45d7874d60f66ef2d0de77b7622035f69",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/ba78bea45d7874d60f66ef2d0de77b7622035f69"
+            }
+        ]
+    },
+    {
+        "sha": "ba78bea45d7874d60f66ef2d0de77b7622035f69",
+        "node_id": "C_kwDOOTQWztoAKGJhNzhiZWE0NWQ3ODc0ZDYwZjY2ZWYyZDBkZTc3Yjc2MjIwMzVmNjk",
+        "commit": {
+            "author": {
+                "name": "Do Phuong Dung",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-11T03:17:19Z"
+            },
+            "committer": {
+                "name": "Do Phuong Dung",
+                "email": "11227119@st.neu.edu.vn",
+                "date": "2025-04-11T03:17:19Z"
+            },
+            "message": "Thêm business landscape",
+            "tree": {
+                "sha": "19831aef3b633a73c838db64d81a3fc0cd559292",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/19831aef3b633a73c838db64d81a3fc0cd559292"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/ba78bea45d7874d60f66ef2d0de77b7622035f69",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/ba78bea45d7874d60f66ef2d0de77b7622035f69",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/ba78bea45d7874d60f66ef2d0de77b7622035f69",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/ba78bea45d7874d60f66ef2d0de77b7622035f69/comments",
+        "author": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Dophuongdung638",
+            "id": 206202214,
+            "node_id": "U_kgDODEplZg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/206202214?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Dophuongdung638",
+            "html_url": "https://github.com/Dophuongdung638",
+            "followers_url": "https://api.github.com/users/Dophuongdung638/followers",
+            "following_url": "https://api.github.com/users/Dophuongdung638/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Dophuongdung638/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Dophuongdung638/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Dophuongdung638/subscriptions",
+            "organizations_url": "https://api.github.com/users/Dophuongdung638/orgs",
+            "repos_url": "https://api.github.com/users/Dophuongdung638/repos",
+            "events_url": "https://api.github.com/users/Dophuongdung638/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Dophuongdung638/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36"
+            }
+        ]
+    },
+    {
+        "sha": "dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+        "node_id": "C_kwDOOTQWztoAKGRiYmI5OTc4YjBkNmM3ZGQ2YTkwYTI4MDdiZTBkYjYyNDlhMWJmMzY",
+        "commit": {
+            "author": {
+                "name": "Anng",
+                "email": "grilledog296@gmail.com",
+                "date": "2025-04-04T09:47:21Z"
+            },
+            "committer": {
+                "name": "Anng",
+                "email": "grilledog296@gmail.com",
+                "date": "2025-04-04T09:47:21Z"
+            },
+            "message": "anng version",
+            "tree": {
+                "sha": "72f8a71eba4f02aaf9e5eff3a8db05d919b56e15",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/72f8a71eba4f02aaf9e5eff3a8db05d919b56e15"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/dbbb9978b0d6c7dd6a90a2807be0db6249a1bf36/comments",
+        "author": {
+            "login": "k4nnguyen",
+            "id": 105962447,
+            "node_id": "U_kgDOBlDbzw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/105962447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/k4nnguyen",
+            "html_url": "https://github.com/k4nnguyen",
+            "followers_url": "https://api.github.com/users/k4nnguyen/followers",
+            "following_url": "https://api.github.com/users/k4nnguyen/following{/other_user}",
+            "gists_url": "https://api.github.com/users/k4nnguyen/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/k4nnguyen/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/k4nnguyen/subscriptions",
+            "organizations_url": "https://api.github.com/users/k4nnguyen/orgs",
+            "repos_url": "https://api.github.com/users/k4nnguyen/repos",
+            "events_url": "https://api.github.com/users/k4nnguyen/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/k4nnguyen/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "k4nnguyen",
+            "id": 105962447,
+            "node_id": "U_kgDOBlDbzw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/105962447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/k4nnguyen",
+            "html_url": "https://github.com/k4nnguyen",
+            "followers_url": "https://api.github.com/users/k4nnguyen/followers",
+            "following_url": "https://api.github.com/users/k4nnguyen/following{/other_user}",
+            "gists_url": "https://api.github.com/users/k4nnguyen/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/k4nnguyen/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/k4nnguyen/subscriptions",
+            "organizations_url": "https://api.github.com/users/k4nnguyen/orgs",
+            "repos_url": "https://api.github.com/users/k4nnguyen/repos",
+            "events_url": "https://api.github.com/users/k4nnguyen/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/k4nnguyen/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "04b2214421b7efbb1e375f6f79da01f36589532e",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/04b2214421b7efbb1e375f6f79da01f36589532e",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/04b2214421b7efbb1e375f6f79da01f36589532e"
+            }
+        ]
+    },
+    {
+        "sha": "04b2214421b7efbb1e375f6f79da01f36589532e",
+        "node_id": "C_kwDOOTQWztoAKDA0YjIyMTQ0MjFiN2VmYmIxZTM3NWY2Zjc5ZGEwMWYzNjU4OTUzMmU",
+        "commit": {
+            "author": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-04T09:38:07Z"
+            },
+            "committer": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-04T09:38:07Z"
+            },
+            "message": "update ver 1.0",
+            "tree": {
+                "sha": "ee16a643176f665ec3f1eb0d2b68f20684d95252",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/ee16a643176f665ec3f1eb0d2b68f20684d95252"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/04b2214421b7efbb1e375f6f79da01f36589532e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/04b2214421b7efbb1e375f6f79da01f36589532e",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/04b2214421b7efbb1e375f6f79da01f36589532e",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/04b2214421b7efbb1e375f6f79da01f36589532e/comments",
+        "author": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6151bafc0b5f5dd1c71363dfa1715d66f18c9380",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/6151bafc0b5f5dd1c71363dfa1715d66f18c9380",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/6151bafc0b5f5dd1c71363dfa1715d66f18c9380"
+            }
+        ]
+    },
+    {
+        "sha": "6151bafc0b5f5dd1c71363dfa1715d66f18c9380",
+        "node_id": "C_kwDOOTQWztoAKDYxNTFiYWZjMGI1ZjVkZDFjNzEzNjNkZmExNzE1ZDY2ZjE4YzkzODA",
+        "commit": {
+            "author": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T10:19:40Z"
+            },
+            "committer": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T10:19:40Z"
+            },
+            "message": "Lưu những thay đổi trước khi xóa",
+            "tree": {
+                "sha": "6e9b73eaa5c8af37145ee0e003715a7f23fce31b",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/6e9b73eaa5c8af37145ee0e003715a7f23fce31b"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/6151bafc0b5f5dd1c71363dfa1715d66f18c9380",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/6151bafc0b5f5dd1c71363dfa1715d66f18c9380",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/6151bafc0b5f5dd1c71363dfa1715d66f18c9380",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/6151bafc0b5f5dd1c71363dfa1715d66f18c9380/comments",
+        "author": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d93e9d18163a94fdda3302327e80eade6cde4524",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/d93e9d18163a94fdda3302327e80eade6cde4524",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/d93e9d18163a94fdda3302327e80eade6cde4524"
+            }
+        ]
+    },
+    {
+        "sha": "d93e9d18163a94fdda3302327e80eade6cde4524",
+        "node_id": "C_kwDOOTQWztoAKGQ5M2U5ZDE4MTYzYTk0ZmRkYTMzMDIzMjdlODBlYWRlNmNkZTQ1MjQ",
+        "commit": {
+            "author": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T10:15:01Z"
+            },
+            "committer": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T10:17:18Z"
+            },
+            "message": "Thêm file def.ipynb",
+            "tree": {
+                "sha": "12f8ba695c3905db3d80bb0d3dbba4c39a548e35",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/12f8ba695c3905db3d80bb0d3dbba4c39a548e35"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/d93e9d18163a94fdda3302327e80eade6cde4524",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/d93e9d18163a94fdda3302327e80eade6cde4524",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/d93e9d18163a94fdda3302327e80eade6cde4524",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/d93e9d18163a94fdda3302327e80eade6cde4524/comments",
+        "author": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "93b6a8d9727386bf4a1b4c300934e6b9120bcd61",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/93b6a8d9727386bf4a1b4c300934e6b9120bcd61",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/93b6a8d9727386bf4a1b4c300934e6b9120bcd61"
+            }
+        ]
+    },
+    {
+        "sha": "93b6a8d9727386bf4a1b4c300934e6b9120bcd61",
+        "node_id": "C_kwDOOTQWztoAKDkzYjZhOGQ5NzI3Mzg2YmY0YTFiNGMzMDA5MzRlNmI5MTIwYmNkNjE",
+        "commit": {
+            "author": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T10:06:58Z"
+            },
+            "committer": {
+                "name": "Phạm Thảo",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T10:17:18Z"
+            },
+            "message": "Xóa file Buổi 1.ipynb và thêm file Buoi_1.ipynb",
+            "tree": {
+                "sha": "0b3771634ffd1e9a4a3675b0019e5bdfc8c4f3de",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/0b3771634ffd1e9a4a3675b0019e5bdfc8c4f3de"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/93b6a8d9727386bf4a1b4c300934e6b9120bcd61",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/93b6a8d9727386bf4a1b4c300934e6b9120bcd61",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/93b6a8d9727386bf4a1b4c300934e6b9120bcd61",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/93b6a8d9727386bf4a1b4c300934e6b9120bcd61/comments",
+        "author": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "016b36bf5784b41e2b0572d29603810dccc09a40",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/016b36bf5784b41e2b0572d29603810dccc09a40",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/016b36bf5784b41e2b0572d29603810dccc09a40"
+            }
+        ]
+    },
+    {
+        "sha": "016b36bf5784b41e2b0572d29603810dccc09a40",
+        "node_id": "C_kwDOOTQWztoAKDAxNmIzNmJmNTc4NGI0MWUyYjA1NzJkMjk2MDM4MTBkY2NjMDlhNDA",
+        "commit": {
+            "author": {
+                "name": "Thảo Phạm",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T09:50:48Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-04-03T09:50:48Z"
+            },
+            "message": "Delete Buổi 1.ipynb",
+            "tree": {
+                "sha": "6e9b73eaa5c8af37145ee0e003715a7f23fce31b",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/6e9b73eaa5c8af37145ee0e003715a7f23fce31b"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/016b36bf5784b41e2b0572d29603810dccc09a40",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn7ln4CRC1aQ7uu5UhlAAAp98QACxUJBT+f4xkYJ0woCwA9AKL\nNzbkjucobPz2YXIhDQK/P4/WKfcjnWWDIVRZktIFZEYF0t/qB+hWCJHr5XBQQ0Zz\nn/B7o3VtV1jmR+9bxfqS8SGY9J/p9MdayloCAKmOn72WK8H02A9+eqED08IAQ7UB\n6JLV0Y33cuAh7GhFWCNt1y+UePb2TDIFoXkg286V/TmzS/S+fVBlEhh21px30MQ6\n+2higl1zws5GF8I2Gr7AuQksOh2lCNSGV+D9uVAIlSfPAfFH7Ns3LreZE+Z55fHN\nf2TXw4N91NuKkS77UtigxDJzbWMHCAkxX8zs92Lbym+HME+xoomlnw1+PKtxwnpq\nIRJOZVA8TTWJpns7TuQT5sIaoPIRJWM2SdCnAxTSWvy8FJD3GDb7ttIGbMI9ehz5\nrY4xpMVN9xx2ivfMjA3Les1J0u5cH2g6vf9K9z7yu+9VJd+6MUzhcq96LUk7wEdg\nn+KIOO5ZUjAVs+l8wsvKU3i3kJ356pblQHeqxf1rBS4JoxGBgs0aGhy02hwYAOiP\nbkzyqAgCHuQrdl0tcfN88Xs/aw04B4ZrE//XFIF7neI7UVHBwxDw9q5QmqxLZBNV\ngBRgUhY/DCnf9UOBl8P28AhRXvWcYI+ZSZ/u4xjL6BtB2aUIPkI8VUbe9ekE2cjf\nQjp0D4sbeF2SgnYW1peR\n=IVP7\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6e9b73eaa5c8af37145ee0e003715a7f23fce31b\nparent 877cd53f7576efa9ed883b18e822fc16f9bfadd4\nauthor Thảo Phạm <ptt120704@gmail.com> 1743673848 +0700\ncommitter GitHub <noreply@github.com> 1743673848 +0700\n\nDelete Buổi 1.ipynb",
+                "verified_at": "2025-04-03T09:55:50Z"
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/016b36bf5784b41e2b0572d29603810dccc09a40",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/016b36bf5784b41e2b0572d29603810dccc09a40",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/016b36bf5784b41e2b0572d29603810dccc09a40/comments",
+        "author": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "877cd53f7576efa9ed883b18e822fc16f9bfadd4",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/877cd53f7576efa9ed883b18e822fc16f9bfadd4",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/877cd53f7576efa9ed883b18e822fc16f9bfadd4"
+            }
+        ]
+    },
+    {
+        "sha": "877cd53f7576efa9ed883b18e822fc16f9bfadd4",
+        "node_id": "C_kwDOOTQWztoAKDg3N2NkNTNmNzU3NmVmYTllZDg4M2IxOGU4MjJmYzE2ZjliZmFkZDQ",
+        "commit": {
+            "author": {
+                "name": "Thảo Phạm",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T09:01:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-04-03T09:01:16Z"
+            },
+            "message": "Add files via upload",
+            "tree": {
+                "sha": "27fda79fec39f98a181890a00b378dceec67b364",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/27fda79fec39f98a181890a00b378dceec67b364"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/877cd53f7576efa9ed883b18e822fc16f9bfadd4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn7k5cCRC1aQ7uu5UhlAAAYSIQAAxvZv0G5bsSHmZ2M0j53jpv\n3TkzHkp/t5dwalC1/7tY9qogwlnC3mkOIBxPTlG4/eSZ3E9KGEcMAkMbgIH+Gpvy\nFjzSU65qsAWmm3Qm7YeW8ktze4V8H5stRRCKzPXeDgqACJQZim4z6VlHMqehqlIL\nulNRKnZXcHmEJcGrSqhzLfuONgg/Va0Bs69/zJCdGuads/dHhn3KeDV1ZaYjH4QP\nEOa4feFqJathFjgWrzWLAgjoDoeVQyxfT9YhoQ7OWtdazyQcmN0QoXfH5M/VWV6M\n/dj/HuyYToglqg8ue1lLncooXnJvPSxr9/ELaBL8nvIee3Lus3ZQbNQrpVHDSRHa\ntn7uuXt8HXIG+zCHxnDv9r6Ylb0u7GydClelCCtUnS4BuCi0eEOOVLzV597jmuaz\nAI+p5NvwC6dkOhcJrJr1Bcl5xah3+s6fupSQbb6CZn+BJF1MPtRm9TJyy6viqca/\nzSX3iDfLWzWfjl0L+dl3AZwc2tnD4d6G+2AlUqtPFUCEqF5oCqEvUA9cHKnOjYGk\n+iccODA8iyULVxSbbh7ip4YaLQDbbyZwmRqJG9xR0UkrCeskegJEPhbb4KE31SA5\nQuWE8EFS5xs6VKuZYupBMOg9xqiLNR+oilHihJtVj40AkHFPhoDqTeW/Y6YdsSuY\nMLBfiM8DJFCsasZnXvHU\n=s308\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 27fda79fec39f98a181890a00b378dceec67b364\nparent 509528d3ebb10b867be63a64becd3ff5cd31354d\nauthor Thảo Phạm <ptt120704@gmail.com> 1743670876 +0700\ncommitter GitHub <noreply@github.com> 1743670876 +0700\n\nAdd files via upload",
+                "verified_at": "2025-04-03T09:06:19Z"
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/877cd53f7576efa9ed883b18e822fc16f9bfadd4",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/877cd53f7576efa9ed883b18e822fc16f9bfadd4",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/877cd53f7576efa9ed883b18e822fc16f9bfadd4/comments",
+        "author": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "509528d3ebb10b867be63a64becd3ff5cd31354d",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/509528d3ebb10b867be63a64becd3ff5cd31354d",
+                "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/509528d3ebb10b867be63a64becd3ff5cd31354d"
+            }
+        ]
+    },
+    {
+        "sha": "509528d3ebb10b867be63a64becd3ff5cd31354d",
+        "node_id": "C_kwDOOTQWztoAKDUwOTUyOGQzZWJiMTBiODY3YmU2M2E2NGJlY2QzZmY1Y2QzMTM1NGQ",
+        "commit": {
+            "author": {
+                "name": "Thảo Phạm",
+                "email": "ptt120704@gmail.com",
+                "date": "2025-04-03T08:30:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-04-03T08:30:09Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "6e9b73eaa5c8af37145ee0e003715a7f23fce31b",
+                "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/trees/6e9b73eaa5c8af37145ee0e003715a7f23fce31b"
+            },
+            "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/git/commits/509528d3ebb10b867be63a64becd3ff5cd31354d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn7kcRCRC1aQ7uu5UhlAAA/xsQAFlmwf9DeEhgxGfjGLN6FmPg\niCVsKZ5JWT7kiQX9MNhNJdU6sR6MBIiH3i0tcH9rppUA9sSIZF5KfAPMO2WPdlvv\ndIbDJH3sVChjyTo9i+2d1W5KPYP0DPcaArdXv8R6FxGB6k5LIkodeSqe2eHbh7en\nTQKyM4SRW0Pq90RvP8vYXl6AEfGiwc4Q0Y4HrDJ5UX/lk8tAhgYHl/V9wVOj/HPD\nWV/6RTF3HluNHYY3YOj6Z3iVYkVVVnig/P2sEZBzg7c2ouF5Y1VZJCSxyd/bVLHH\nABRo29CC9hVJQr9ufSnI7or6XFtBIKh7MjOJlFFEzxBTdOmNxQseq10AtxAKpZxS\n0gLzHH0lkoeAVv9Gw6pGuu0jzT5DHk30Xevpk58Av9BnR1byMkecpWV7vIon5I8z\nMPX5x+36nmqRAe+GM88Bfkfzu5D4Tczo+RfOMQodR0bXpk2gLx/b7lOJqKB6kONx\ntYFWNMr9stQfjhVeVZQFiMzQM3Xd79dNyNPkTT/mX1NRUD9iT3J63oLcRWBUxafc\nV7ztozxEZSqdmGqK6ah0lVkhJszmm30LnKxIPUCUpvCoz+5mwv3Xbweo8Ajc5ApE\nUvnZP6ibktUa3sZ/R9KOUoypa1GPXR6Dc3WNHhWb8iDfJOttNR1byewcbnI8udCm\nWyuCUYCSE4Bsinp2clAJ\n=VJOD\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6e9b73eaa5c8af37145ee0e003715a7f23fce31b\nauthor Thảo Phạm <ptt120704@gmail.com> 1743669009 +0700\ncommitter GitHub <noreply@github.com> 1743669009 +0700\n\nInitial commit",
+                "verified_at": "2025-04-03T08:35:11Z"
+            }
+        },
+        "url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/509528d3ebb10b867be63a64becd3ff5cd31354d",
+        "html_url": "https://github.com/Thao1274/Nhom_5_Mid_term_1/commit/509528d3ebb10b867be63a64becd3ff5cd31354d",
+        "comments_url": "https://api.github.com/repos/Thao1274/Nhom_5_Mid_term_1/commits/509528d3ebb10b867be63a64becd3ff5cd31354d/comments",
+        "author": {
+            "login": "Thao1274",
+            "id": 202069057,
+            "node_id": "U_kgDODAtUQQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/202069057?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Thao1274",
+            "html_url": "https://github.com/Thao1274",
+            "followers_url": "https://api.github.com/users/Thao1274/followers",
+            "following_url": "https://api.github.com/users/Thao1274/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Thao1274/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Thao1274/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Thao1274/subscriptions",
+            "organizations_url": "https://api.github.com/users/Thao1274/orgs",
+            "repos_url": "https://api.github.com/users/Thao1274/repos",
+            "events_url": "https://api.github.com/users/Thao1274/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Thao1274/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": []
+    }
+]
